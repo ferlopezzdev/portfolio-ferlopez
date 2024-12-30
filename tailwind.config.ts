@@ -11,7 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        label: "var(--label)",
       },
+      fontFamily: {
+        afacadFlux: "Afacad Flux",
+      }
     },
   },
   plugins: [],

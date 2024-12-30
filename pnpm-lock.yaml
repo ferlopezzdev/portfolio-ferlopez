@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      gsap:
+        specifier: ^3.12.5
+        version: 3.12.5
       next:
         specifier: 15.1.3
         version: 15.1.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -17,6 +20,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
+      split-text:
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -897,6 +903,9 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
+  gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+
   has-bigints@1.1.0:
     resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
     engines: {node: '>= 0.4'}
@@ -1462,6 +1471,10 @@ packages:
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+    engines: {node: '>=0.10.0'}
+
+  split-text@1.0.0:
+    resolution: {integrity: sha512-uUKOFGpdt4/rrrBSmLugVbGmHaD7Ex4FcqIEXQRwlnxnDN+pL21Rx2lTgA3CSM8JE6EZPL4ZeEJp1ntzBsnc6Q==}
     engines: {node: '>=0.10.0'}
 
   stable-hash@0.0.4:
@@ -2668,6 +2681,8 @@ snapshots:
 
   graphemer@1.4.0: {}
 
+  gsap@3.12.5: {}
+
   has-bigints@1.1.0: {}
 
   has-flag@4.0.0: {}
@@ -3266,6 +3281,8 @@ snapshots:
     optional: true
 
   source-map-js@1.2.1: {}
+
+  split-text@1.0.0: {}
 
   stable-hash@0.0.4: {}
 

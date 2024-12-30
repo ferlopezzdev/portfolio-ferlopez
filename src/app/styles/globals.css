@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #EEF3F3;
+    --label: #332E2E;
+}
+
+* {
+    /* cursor: none; */
+}
+
+body {
+    @apply bg-background;
+}
